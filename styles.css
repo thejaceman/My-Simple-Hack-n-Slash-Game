@@ -34,3 +34,36 @@ body {
   padding: 10px;
   margin-left: 2%;
 }
+
+/* Character Creation Form Stylings */
+#character-creation {
+  margin-bottom: 20px;
+}
+
+#character-creation h2 {
+  margin-bottom: 10px;
+}
+
+#character-creation label, #character-creation select {
+  margin: 5px 0;
+}
+
+#character-creation button {
+  margin-top: 10px;
+}
+
+/* character stats stylings */
+#character-stats {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #f9f9f9;
+}
+
+#character-stats h3 {
+  margin-top: 0;
+}
+
+#chracter-stats p {
+  margin: 5px 0;
+}

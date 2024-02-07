@@ -8,9 +8,40 @@
 </head>
 <body>
     <div id="game-container">
-        <div id="game-output"></div>
-        <input type="text" id="user-input" placeholder="Enter command...">
-        <button id="submit-btn">Submit</button>
+      <div id="character-creation">
+        <h2>Create Your Character</h2>
+        <label for="race">Choose your race:</label>
+        <select id="race">
+          <option value="human">Human</option>
+          <option value="elf">Elf</option>
+          <option value="dwarf">Dwarf</option>
+        </select>
+
+        <label for="class">Choose your class:</label>
+        <select id="class">
+          <option value="fighter">Fighter</option>
+          <option value="mage">Mage</option>
+          <option value="thief">Thief</option>
+        </select>
+
+        <label for="gender">Choose your gender:</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <button id="create-character-btn">Create Character</button>
+      </div>
+      <div id="character-stats">
+        <h3>Character Stats:</h3>
+        <p><strong>Strength: </strong><span id="stat-strength">0</span></p>
+        <p><strong>Dexterity: </strong><span id="stat-dexterity">0</span></p>
+        <p><strong>Agility: </strong><span id="stat-agility">0</span></p>
+        <p><strong>Constitution: </strong><span id="stat-constitution">0</span></p>
+      </div>
+      <div id="game-output"></div>
+      <input type="text" id="user-input" placeholder="Enter command...">
+      <button id="submit-btn">Submit</button>
     </div>
     <script src="script.js"></script>
 </body>
